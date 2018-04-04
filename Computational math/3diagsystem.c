@@ -104,7 +104,7 @@ int main()
     printf("Ïî íàéäåííûì ïðîãîíî÷íûì êîýôôèöèåíòàì P_n è Q_n âîññòàíàâëèâàåì ðåøåíèå ñèñòåìû:\n");
     for (i = 0; i <= N; i++)
     {
-        printf("u[%d] = %f\n", i, u_n[i], i);
+        printf("u[%d] = %f\n", i, u_n[i]);
     }
     double** A;
     A = (double**)calloc(N + 1, sizeof(double*));
