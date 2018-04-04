@@ -86,11 +86,11 @@ int main()
 {
     setlocale(LC_ALL, "rus");
     int N = 40;
+    int i;
     double h = (double)(M_PI/N);
     double P1 = 0, Q1 = 0;
     double* P_n = (double*)calloc(N + 1, sizeof(double));
     double* Q_n = (double*)calloc(N + 1, sizeof(double));
-    int i;
     P(P_n, P1, N, h);
     Q(Q_n, Q1, P_n, N, h);
     printf("Íàõîäèì ïðîãîíî÷íûå êîýôôèöèåíòû P_n è Q_n:\n");
